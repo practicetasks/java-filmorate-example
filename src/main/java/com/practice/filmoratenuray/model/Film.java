@@ -6,4 +6,5 @@ public class Film {
     // описание — description;
     // дата релиза — releaseDate;
     // продолжительность фильма — duration. (целое число в минутах)
+    // лайки (идентификаторы пользоваталей Set<Integer> likes)
 }

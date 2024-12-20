@@ -29,4 +29,9 @@ public class UserController {
     //   "birthday": "1946-08-20"
     // }
     // если пользователя с таким идентификатором не существует, выбрасываем исключение
+
+    // PUT /users/{id}/friends/{friendId} — добавление в друзья.
+    // DELETE /users/{id}/friends/{friendId} — удаление из друзей.
+    // GET /users/{id}/friends — возвращаем список пользователей, являющихся его друзьями.
+    // GET /users/{id}/friends/common/{otherId} — список друзей, общих с другим пользователем.
 }
